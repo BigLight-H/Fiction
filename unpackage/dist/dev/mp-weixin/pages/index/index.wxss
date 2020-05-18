@@ -1,0 +1,51 @@
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('http://book.tiny-app.top/static/fonts/smt.737bf92.ttf');
+}
+page {
+	background-color: #e0e0e0;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.text-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.title {
+	color: #8f8f94;
+	font-family: iconfont;
+	font-size: 100rpx;
+	margin-top: 300rpx;
+}
+.button-sp-area {
+	width: 100%;
+	margin-top: 550rpx;
+}
+.button-sp-area button {
+	width: 70%;
+	font-size: 30rpx;
+	line-height: 75rpx;
+	height: 75rpx;
+	border: 1rpx solid;
+	border-color: #555555 !important;
+	color:#555555 !important;
+}
+
