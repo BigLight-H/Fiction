@@ -4,7 +4,9 @@
 			<text class="title">{{title}}</text>
 		</view>
 		<view class="button-sp-area" id="button-id">
-			<button type="primary" plain="true">开启小说之旅</button>
+			<navigator url="/pages/home/home">
+				<button type="primary" plain="true">开启小说之旅</button>
+			</navigator>
 		</view>
 	</view>
 </template>

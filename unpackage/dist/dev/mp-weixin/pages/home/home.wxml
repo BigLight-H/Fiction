@@ -1,0 +1,1 @@
+<view class="home-book"><view class="uni-form-item uni-column"><input class="uni-input" focus placeholder="搜索小说"/></view><view><view class="home-title"><view class="home-title-paihang">点击排行</view><view>更多</view></view><view class="home-book-hot"><view><image src="../../static/logo.png" mode></image></view></view></view></view>

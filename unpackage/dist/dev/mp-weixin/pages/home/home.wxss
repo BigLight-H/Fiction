@@ -1,0 +1,29 @@
+
+.home-book {
+}
+.uni-column {
+	padding: 3% 10%;
+	height: 80rpx;
+	padding-top: 20rpx;
+}
+.uni-input {
+	height: 1.8rem;
+	border: .04rem solid #555555;
+	padding: 7rpx;
+	border-radius: 11rpx;
+}
+.home-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-right: 1rem;
+}
+.home-title-paihang {
+	font-size: 35rpx;
+}
+
