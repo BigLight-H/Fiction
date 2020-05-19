@@ -61,7 +61,8 @@
 	
 	.button-sp-area {
 		width: 100%;
-		margin-top: 550upx;
+		position: fixed;
+		bottom: 20%;
 	}
 	.button-sp-area button {
 		width: 70%;

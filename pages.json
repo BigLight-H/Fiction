@@ -12,7 +12,11 @@
 				"navigationBarTitleText": "Shine Book"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/types/types",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "Shine Book",

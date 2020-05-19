@@ -1,0 +1,13 @@
+
+.uni-column {
+	padding: 3% 10%;
+	height: 80rpx;
+	padding-top: 20rpx;
+}
+.uni-input {
+	height: 1.8rem;
+	border: .04rem solid #555555;
+	padding: 7rpx;
+	border-radius: 11rpx;
+}
+

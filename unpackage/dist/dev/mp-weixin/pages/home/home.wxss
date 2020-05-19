@@ -1,17 +1,6 @@
 
 .home-book {
 }
-.uni-column {
-	padding: 3% 10%;
-	height: 80rpx;
-	padding-top: 20rpx;
-}
-.uni-input {
-	height: 1.8rem;
-	border: .04rem solid #555555;
-	padding: 7rpx;
-	border-radius: 11rpx;
-}
 .home-title {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -25,5 +14,66 @@
 }
 .home-title-paihang {
 	font-size: 35rpx;
+}
+.home-title-gengduo {
+	color: #0A98D5;
+}
+.home-book-hot {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.home-book-hot-img {
+	width: 40%;
+}
+.home-book-hot-img image{
+	width: 100%;
+}
+.home-book-con {
+	padding-left: .5rem;
+	width: 60%;
+	padding-top: .8rem;
+}
+.home-book-con-author {
+	padding-bottom: .5rem;
+	padding-top: .5rem;
+}
+.home-book-con-name {
+	font-size: 35rpx;
+}
+.home-book-con-jj {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 7;
+	line-clamp: 7;
+	-webkit-box-orient: vertical;
+}
+.book-list {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border-bottom: .04rem solid #e8eaec;
+}
+.book-list-type {
+	line-height: 3rem;
+}
+.book-list-name {
+	font-size: 28rpx;
+}
+.book-list-author {
+	color: #00000073;
+}
+.book-list:last-child {
+	border-bottom: none;
 }
 

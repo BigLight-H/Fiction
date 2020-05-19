@@ -37,7 +37,8 @@ page {
 }
 .button-sp-area {
 	width: 100%;
-	margin-top: 550rpx;
+	position: fixed;
+	bottom: 20%;
 }
 .button-sp-area button {
 	width: 70%;
