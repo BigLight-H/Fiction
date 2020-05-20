@@ -1,1 +1,1 @@
-<view class="content"><view class="text-area"><text class="title">{{title}}</text></view><view class="button-sp-area" id="button-id"><navigator url="/pages/home/home"><button type="primary" plain="true">开启小说之旅</button></navigator></view></view>
+<view class="content"><view class="text-area"><text class="title">{{title}}</text></view><view class="button-sp-area" id="button-id"><button type="primary" plain="true" data-event-opts="{{[['tap',[['jump',['$event']]]]]}}" bindtap="__e">开启小说之旅</button></view></view>

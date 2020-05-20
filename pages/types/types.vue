@@ -23,17 +23,14 @@
 				<view class="book-type-list-author">作者:小草</view>
 			</view>
 		</view>
-		<floor :msg="2"></floor>
 	</view>
 </template>
 
 <script>
 	import search from "../../component/search.vue"
-	import floor from "../../component/floor.vue"
 	export default {
 		components: {
-		    search,
-			floor
+		    search
 		},
 		data() {
 			return {

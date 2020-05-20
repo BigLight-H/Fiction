@@ -1,28 +1,43 @@
 <template>
 	<view class="button-btn">
-		<view class="">
+		<view class="button-btn-div">
 			<navigator url="/pages/home/home">
-				<text v-if="msg == 1" class="iconfont icon-color">&#xe7bb;</text>
-				<text v-else class="iconfont">&#xe7bb;</text>
+				<view class="floor-icon-div">
+					<view v-if="msg == 1" class="iconfont icon-color">&#xe7bb;</view>
+					<view v-else class="iconfont">&#xe7bb;</view>
+					<view class="floor-icon-div-name">主页</view>
+				</view>
 			</navigator>
 		</view>
-		<view class="">
+		<view class="button-btn-div">
 			<navigator url="/pages/types/types">
-				<text v-if="msg == 2" class="iconfont icon-color">&#xe7f8;</text>
-				<text v-else class="iconfont">&#xe7f8;</text>
+				<view class="floor-icon-div">
+					<view v-if="msg == 2" class="iconfont icon-color">&#xe7f8;</view>
+					<view v-else class="iconfont">&#xe7f8;</view>
+					<view class="floor-icon-div-name">分类</view>
+				</view>
 			</navigator>
 		</view>
-		<view class="">
-			<text  v-if="msg == 3" class="iconfont icon-color">&#xe61a;</text>
-			<text v-else class="iconfont">&#xe61a;</text>
+		<view class="button-btn-div">
+			<view class="floor-icon-div">
+				<view v-if="msg == 3" class="iconfont icon-color">&#xe61a;</view>
+				<view v-else class="iconfont">&#xe61a;</view>
+				<view class="floor-icon-div-name">排行</view>
+			</view>
 		</view>
-		<view class="">
-			<text v-if="msg == 4" class="iconfont icon-color">&#xe605;</text>
-			<text v-else class="iconfont">&#xe605;</text>
+		<view class="button-btn-div">
+			<view class="floor-icon-div">
+				<view v-if="msg == 4" class="iconfont icon-color">&#xe605;</view>
+				<view v-else class="iconfont">&#xe605;</view>
+				<view class="floor-icon-div-name">完本</view>
+			</view>
 		</view>
-		<view class="">
-			<text v-if="msg == 5" class="iconfont icon-color">&#xe617;</text>
-			<text v-else class="iconfont">&#xe617;</text>
+		<view class="button-btn-div">
+			<view class="floor-icon-div">
+				<view v-if="msg == 5" class="iconfont icon-color">&#xe617;</view>
+				<view v-else class="iconfont">&#xe617;</view>
+				<view class="floor-icon-div-name">我的</view>
+			</view>
 		</view>
 	</view>
 </template>
@@ -55,10 +70,11 @@
 	
 	.iconfont {
 	  font-family: "iconfont" !important;
-	  font-size: 60upx;
+	  font-size: 50upx;
 	  font-style: normal;
 	  -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
+	  margin-top: .5rem;
 	}
 	
 	.iconleimupinleifenleileibie2:before {
@@ -108,7 +124,6 @@
 		bottom: 0;
 		right: 0;
 		left: 0;
-		line-height: 3.5rem;
 		text-align: center;
 		background: #f5f5f5;
 		height: 4rem;
@@ -119,5 +134,19 @@
 	}
 	.icon-color {
 		color: #0066CC;
+	}
+	.floor-icon-div {
+		position: relative;
+	}
+	.floor-icon-div-name {
+		position: absolute;
+		top: 59upx;
+		font-size: 26upx;
+		text-align: center;
+		width: 100%;
+		
+	}
+	.button-btn-div{
+		width: 10%;
 	}
 </style>

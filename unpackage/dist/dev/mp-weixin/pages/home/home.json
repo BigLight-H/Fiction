@@ -1,7 +1,6 @@
 {
   "navigationBarTitleText": "Shine Book",
   "usingComponents": {
-    "search": "/component/search",
-    "floor": "/component/floor"
+    "search": "/component/search"
   }
 }

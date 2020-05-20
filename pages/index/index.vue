@@ -4,9 +4,7 @@
 			<text class="title">{{title}}</text>
 		</view>
 		<view class="button-sp-area" id="button-id">
-			<navigator url="/pages/home/home">
-				<button type="primary" plain="true">开启小说之旅</button>
-			</navigator>
+			<button type="primary" plain="true" @click="jump">开启小说之旅</button>
 		</view>
 	</view>
 </template>
@@ -19,15 +17,14 @@
 			}
 		},
 		onLoad() {
-			// 获取可视区域高度，减去固定高度
-			uni.getSystemInfo({
-				success: res => {
-					let h = res.windowHeight - uni.upx2px(82);
-				}
-			});
+			
 		},
 		methods: {
-			
+			jump(){
+				uni.switchTab({
+				    url: '/pages/home/home'
+				});
+			}
 		}
 	}
 </script>

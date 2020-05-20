@@ -11,5 +11,42 @@
     "navigationBarBackgroundColor": "#e0e0e0",
     "backgroundColor": "#e0e0e0"
   },
+  "tabBar": {
+    "color": "#646566",
+    "selectedColor": "#4CA2FF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home1.png"
+      },
+      {
+        "pagePath": "pages/types/types",
+        "text": "分类",
+        "iconPath": "static/icon/type.png",
+        "selectedIconPath": "static/icon/type1.png"
+      },
+      {
+        "pagePath": "pages/types/types",
+        "text": "排行",
+        "iconPath": "static/icon/bond.png",
+        "selectedIconPath": "static/icon/bond1.png"
+      },
+      {
+        "pagePath": "pages/types/types",
+        "text": "完本",
+        "iconPath": "static/icon/book.png",
+        "selectedIconPath": "static/icon/book1.png"
+      },
+      {
+        "pagePath": "pages/types/types",
+        "text": "我的",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my1.png"
+      }
+    ]
+  },
   "usingComponents": {}
 }

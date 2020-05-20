@@ -8,6 +8,7 @@
 	height: 1.8rem;
 	border: .04rem solid #555555;
 	padding: 7rpx;
-	border-radius: 11rpx;
+	-webkit-border-radius: 11rpx;
+	        border-radius: 11rpx;
 }
 
