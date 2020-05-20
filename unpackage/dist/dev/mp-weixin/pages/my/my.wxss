@@ -1,0 +1,13 @@
+
+.my-img {
+	padding: 1rem;
+	text-align: center;
+	background: #e6e6e6;
+}
+.logo {
+	width: 170rpx;
+	height: 170rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+

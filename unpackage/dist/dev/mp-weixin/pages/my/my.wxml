@@ -1,1 +1,1 @@
-<view>这是我的页面</view>
+<view><view class="my-img"><image class="logo" src="/static/logo.png"></image></view></view>
