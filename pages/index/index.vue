@@ -47,9 +47,6 @@
 		font-family: 'iconfont';
 		src: url('http://book.tiny-app.top/static/fonts/smt.737bf92.ttf');
 	}
-	body {
-		background-color: #e0e0e0;
-	}
 	.content {
 		display: flex;
 		flex-direction: column;

@@ -11,8 +11,8 @@
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Shine Book",
-    "navigationBarBackgroundColor": "#e0e0e0",
-    "backgroundColor": "#e0e0e0"
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
   },
   "tabBar": {
     "color": "#646566",
