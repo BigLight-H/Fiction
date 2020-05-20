@@ -5,7 +5,11 @@
     "pages/types/types",
     "pages/over/over",
     "pages/rank/rank",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/books/books",
+    "pages/book_shelf/book_shelf",
+    "pages/search/search",
+    "pages/content/content"
   ],
   "subPackages": [],
   "window": {

@@ -1,0 +1,33 @@
+
+.book-shelf {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	        flex-wrap:wrap;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.book-shelf-div {
+	width: 26%;
+	margin-left: 5.5%;
+	margin-bottom: .5rem;
+}
+.book-shelf-div image {
+	width: 100%;
+	height: 8rem;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+.book-name {
+	text-align: center;
+	font-size: 25rpx;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
