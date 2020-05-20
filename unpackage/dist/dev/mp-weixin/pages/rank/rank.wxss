@@ -1,0 +1,41 @@
+
+.book-typys {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		padding: 1rem 2.5rem;
+		-webkit-box-pack:justify;
+		-webkit-justify-content:space-between;
+		        justify-content:space-between
+}
+.book-typs-name {
+		width: 40%;
+		text-align: center;
+		padding: .3rem;
+		margin-bottom: .8rem;
+		border: .04rem solid #d6d6d6;
+		color: #5f6779;
+		-webkit-border-radius: 5px;
+		        border-radius: 5px;
+}
+.book-type-list-div {
+		margin-left: 2.5rem;
+		margin-right: 2.5rem;
+		padding-bottom: .5rem;
+		margin-bottom: .5rem;
+		border-bottom: .04rem solid #e8eaec;
+		color:#5f6779;
+}
+.book-type-list-div:last-child {
+		border-bottom: none;
+}
+.book-type-list-name {
+		margin-bottom: .2rem;
+}
+.book-type-list-author {
+		font-size: 30rpx;
+		color: #00000073;
+}
+

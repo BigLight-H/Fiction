@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/home/home",
-    "pages/types/types"
+    "pages/types/types",
+    "pages/over/over",
+    "pages/rank/rank",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
@@ -29,19 +32,19 @@
         "selectedIconPath": "static/icon/type1.png"
       },
       {
-        "pagePath": "pages/types/types",
+        "pagePath": "pages/rank/rank",
         "text": "排行",
-        "iconPath": "static/icon/bond.png",
-        "selectedIconPath": "static/icon/bond1.png"
+        "iconPath": "static/icon/rank.png",
+        "selectedIconPath": "static/icon/rank1.png"
       },
       {
-        "pagePath": "pages/types/types",
+        "pagePath": "pages/over/over",
         "text": "完本",
         "iconPath": "static/icon/book.png",
         "selectedIconPath": "static/icon/book1.png"
       },
       {
-        "pagePath": "pages/types/types",
+        "pagePath": "pages/my/my",
         "text": "我的",
         "iconPath": "static/icon/my.png",
         "selectedIconPath": "static/icon/my1.png"
