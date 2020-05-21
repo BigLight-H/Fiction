@@ -173,7 +173,7 @@ var _default =
       //     url: '/pages/home/home'
       // });
       uni.redirectTo({
-        url: '/pages/books/books' });
+        url: '/pages/book_detail/book_detail' });
 
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))

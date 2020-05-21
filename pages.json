@@ -44,6 +44,10 @@
             "path" : "pages/content/content",
             "style" : {}
         }
+        ,{
+            "path" : "pages/book_detail/book_detail",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
