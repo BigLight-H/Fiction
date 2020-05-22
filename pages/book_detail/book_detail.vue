@@ -44,6 +44,7 @@
 		text-align: center;
 		background: #f3f3f3;
 		padding: 1rem;
+		border-radius: 20% 50%;
 	}
 	.book-detail-img image {
 		width: 10rem;

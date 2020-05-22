@@ -38,7 +38,7 @@
 				//     url: '/pages/home/home'
 				// });
 				uni.redirectTo({
-				    url: '/pages/book_detail/book_detail'
+				    url: '/pages/content/content'
 				});
 			}
 		}
