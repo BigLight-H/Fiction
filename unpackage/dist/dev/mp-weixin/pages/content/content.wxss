@@ -1,155 +1,130 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/* 抽屉宽度
- */
-.uni-drawer.data-v-012a885a {
-
-		display: block;
-
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		overflow: hidden;
-		z-index: 999;
+.book-con {
+	padding: 1rem 1.5rem;
+	line-height: 1.6rem;
 }
-.uni-drawer__content.data-v-012a885a {
-
-		display: block;
-
-		position: absolute;
-		top: 0;
-		width: 220px;
-		bottom: 0;
-		background-color: #ffffff;
-		-webkit-transition: -webkit-transform 0.3s ease;
-		transition: -webkit-transform 0.3s ease;
-		transition: transform 0.3s ease;
-		transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+.book-title {
+	text-align: center;
+	font-size: 1.4rem;
 }
-.uni-drawer--left.data-v-012a885a {
-		left: 0;
-		-webkit-transform: translateX(-220px);
-		        transform: translateX(-220px);
+.book-con-set {
+	position: fixed;
+	background: #ff000000;
+	left: 6rem;
+	right: 6rem;
+	height: 75%;
+	top: 0;
 }
-.uni-drawer--right.data-v-012a885a {
-		right: 0;
-		-webkit-transform: translateX(220px);
-		        transform: translateX(220px);
+/* 底部分享 */
+.uni-share {
+	background-color: #ffffff;
+	height: 3rem;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	        justify-content:space-between;
 }
-.uni-drawer__content--visible.data-v-012a885a {
-		-webkit-transform: translateX(0px);
-		        transform: translateX(0px);
+.set-btn-left {
+	padding-top: .75rem;
+	padding-left: 1rem;
 }
-.uni-drawer__mask.data-v-012a885a {
-
-		display: block;
-
-		opacity: 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background-color: rgba(0, 0, 0, 0.4);
-		-webkit-transition: opacity 0.3s;
-		transition: opacity 0.3s;
+.set-btn-left text {
+	background: #C0C0C0;
+	padding: .3rem .8rem;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	font-size: .8rem;
+	color: #FFFFFF;
 }
-.uni-drawer__mask--visible.data-v-012a885a {
+.set-btn-right {
+	padding-top: .75rem;
+	padding-right: 1rem;
+}
+.set-btn-right text {
+	background: #C0C0C0;
+	padding: .3rem .8rem;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	font-size: .8rem;
+	color: #FFFFFF;
+}
+.uni-share-title {
+	line-height: 60rpx;
+	font-size: 24rpx;
+	padding: 15rpx 0;
+	text-align: center;
+}
+.uni-share-content {
 
-		display: block;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
 
-		opacity: 1;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 15px;
+}
+.uni-share-content-box {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 200rpx;
+}
+.uni-share-content-image {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 60rpx;
+	height: 60rpx;
+	overflow: hidden;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.book-page-btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	        justify-content:space-between;
+	padding: 1.6rem;
+}
+.book-page-btn-b {
+	background: #0A98D5;
+	padding: .2rem 1rem;
+	font-size: .8rem;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	color: #ffffff;
 }
 
