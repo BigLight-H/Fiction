@@ -10,7 +10,8 @@
     "pages/book_shelf/book_shelf",
     "pages/search/search",
     "pages/content/content",
-    "pages/book_detail/book_detail"
+    "pages/book_detail/book_detail",
+    "pages/authorization/authorization"
   ],
   "subPackages": [],
   "window": {

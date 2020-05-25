@@ -48,6 +48,10 @@
             "path" : "pages/book_detail/book_detail",
             "style" : {}
         }
+        ,{
+            "path" : "pages/authorization/authorization",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

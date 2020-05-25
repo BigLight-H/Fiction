@@ -38,7 +38,7 @@
 				//     url: '/pages/home/home'
 				// });
 				uni.redirectTo({
-				    url: '/pages/content/content'
+				    url: '/pages/authorization/authorization'
 				});
 			}
 		}
